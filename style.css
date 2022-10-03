@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 10px;
+  position: relative;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 80px;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+img {
+  position: absolute;
+  top: -100px;
+  right: -230px;
+}
+
+form {
+  display: flex;
+  gap: 50px;
+}
+
+.truck-container,
+.colors-container {
+  display: flex;
+  gap: 10px;
+	position: relative;
+}
+
+#trucks,
+#colors {
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn-truck,
+#btn-colors {
+  border-radius: 10px;
+  border: none;
+  width: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#btn-truck:hover,
+#btn-colors:hover {
+  background: transparent;
+  border: 2px solid #000;
+}
+
+.mercedes_img {
+	width: 500px;
+}
+
+.ford_img {
+	width: 600px;
+}
+
+.renault_img {
+	width: 500px;
+}
+
+.error {
+	color: Red;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+small {
+	position: absolute;
+	bottom: -20px;
+}

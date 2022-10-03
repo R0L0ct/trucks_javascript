@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cars</title>
+  </head>
+
+  <body>
+    <div class="card" id="cards">
+      <!-- <div class="left-card"> -->
+      <!--   <h2>Ford</h2> -->
+      <!--   <h4>Price: $10000</h4> -->
+      <!-- </div> -->
+      <!-- <img src="img/ford-rojo.png" alt="ford-rojo" /> -->
+    </div>
+    <form id="formMark">
+      <div class="truck-container">
+        <select name="selectTruck" id="trucks">
+          <option value="">--Please choose an option--</option>
+          <option value="1">Ford</option>
+          <option value="2">Mercedes Benz</option>
+          <option value="3">Renault</option>
+        </select>
+				<small></small>
+        <button type="submit" id="btn-truck">Select</button>
+      </div>
+    </form>
+    <form id="formColor">
+      <div class="colors-container">
+        <select name="selectColors" id="colors">
+          <option value="">--Please choose an option--</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">White</option>
+					<option value="black">Black</option>
+        </select>
+				<small></small>
+        <button type="submit" id="btn-colors">Select</button>
+      </div>
+    </form>
+
+    <script src="utils.js"></script>
+    <script src="validations.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
